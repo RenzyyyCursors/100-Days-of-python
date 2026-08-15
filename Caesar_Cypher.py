@@ -3,12 +3,14 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 
 def caesar(strings,shift,decrypt):
     s = ""
+
     if decrypt == True:
         shift = shift *(-1)
     string = strings.lower()
+
     for i in range(len(string)):
-        if string[i] == " ":
-            s += ' '
+        if string[i] not in alphabet:
+            s += string[i]
             continue
         idx = (alphabet.index(string[i])+shift)%25
         s += alphabet[idx]
@@ -16,13 +18,19 @@ def caesar(strings,shift,decrypt):
         return("Decypted: "+ s)
     return("Encrypted: "+ s)
 
-code = input("Enter code: ")
-num = int(input("Enter shift value: "))
-dec = input("Do you wanna decrypt ? Press (Y) if yes and (N) if not.")
-if dec.lower() == 'y':
-    print(caesar(code,num,True))
-elif dec.lower() == 'n':
-    print(caesar(code,num,False))
+print("______CAESAR__CYPHER_______")
+
+while True:
+    code = input("Enter code: ")
+    num = int(input("Enter shift value: "))
+    dec = input("Do you wanna decrypt ? Press (Y) if yes and (N) if not and (q) to quit.")
+
+    if dec.lower() == 'y':
+        print(caesar(code,num,True))
+    elif dec.lower() == 'n':
+        print(caesar(code,num,False))
+    if dec.lower() == 'q':
+        break
 
 
 # %%
