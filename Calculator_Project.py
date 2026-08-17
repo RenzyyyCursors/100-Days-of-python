@@ -24,8 +24,9 @@ while True:
     n2 = int(input("2nd Number"))
     if ops == '+':
         tot == addition(tot,n2)
-    if ops == '-':
+    elif ops == '-':
         tot == subtract(tot,n2)
+    
 
 
 
