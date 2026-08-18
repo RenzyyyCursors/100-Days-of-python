@@ -1,32 +1,35 @@
 #%%
 tot = 0
-def addition(n1,n2):
-    return n1+n2
-def subtract(n1,n2):
-    return n1-n2
-def multiplication(n1,n2):
-    return n1*n2
-def division(n1,n2):
-    return n1/n2
-def exponent(n1,n2):
-    return n1**n2
-def modulus(n1,n2):
-    return n1%n2
+def calc(n1,n2,ops,tot):
+    if ops =='+':
+        tot = n1+n2
+    if ops =='-':
+        tot = n1-n2
+    if ops =='*':
+        tot = n1*n2
+    if ops =='/':
+        tot = n1/n2
+    if ops =='^':
+        tot = n1^n2
+    if ops =='%':
+        tot = n1%n2
+    return tot
 
+first = True 
 while True:
     userin = input("Enter to begin or (q) to quit")
     if userin.lower() == 'q':
         break
-    ops = input("Input Operation [+,-,*,/,^,%] or clear(c)")
-    if ops.lower() == 'c':
-        tot = 0
-    n1 = int(input("1st Number"))
-    n2 = int(input("2nd Number"))
-    if ops == '+':
-        tot == addition(tot,n2)
-    elif ops == '-':
-        tot == subtract(tot,n2)
-    
+    if 
+    clear = input("Continue with current answer?. (Y) for yes (N) for No")
+    ops = input("Input Operation [+,-,*,/,^,%]")
+    if clear.lower() == 'n':
+        n3 = int(input("Next Number: "))
+        
+    elif clear.lower() == 'y':
+        n1 = int(input("1st Number: "))
+        n2 = int(input("2nd Number: "))
+
 
 
 
