@@ -2,6 +2,7 @@
 # %%
 all_bid = {}
 
+# bidding function
 def bid():
     user_name = input("Enter your name: ")
     user_input = int(input("Enter the bidding amount: "))

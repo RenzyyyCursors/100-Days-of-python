@@ -1,6 +1,7 @@
 # %%
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
+# all in one decrypt encrpyt function
 def caesar(strings,shift,decrypt):
     s = ""
 
@@ -8,6 +9,7 @@ def caesar(strings,shift,decrypt):
         shift = shift *(-1)
     string = strings.lower()
 
+    # cypher loop
     for i in range(len(string)):
         if string[i] not in alphabet:
             s += string[i]
@@ -20,6 +22,7 @@ def caesar(strings,shift,decrypt):
 
 print("______CAESAR__CYPHER_______")
 
+#  main function
 while True:
     code = input("Enter code: ")
     num = int(input("Enter shift value: "))
