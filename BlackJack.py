@@ -6,7 +6,7 @@ you = []
 you_total_value = 0
 player_total_value = 0
 
-# dealing carrd function
+# dealing card function
 def deal_card():
     cards = {"A":11,"2":2,"3":3,"4":4,"5":5,"6":6,"7":7,"8":8,"9":9,"K":10,"Q":10,"J":10}
     selected_card,card_value = random.choice(list(cards.items()))
@@ -16,6 +16,8 @@ def deal_card():
 def player_move(player,player_total_value):
     while player_total_value < 17:
         player_card, player_value = deal_card() 
+        if player_card == "A" and player_total_value > 10:
+            player_value = 1
         player.append(player_card)
         player_total_value += player_value 
 
@@ -72,6 +74,8 @@ while True:
             break
         elif hit_stand.lower() == 'h':
             you_card, you_value = deal_card()
+            if you_card == "A" and you_total_value > 10:
+                you_value = 1
             you.append(you_card)
             you_total_value += you_value
             print(f"Your cards: {you} (Total: {you_total_value}), Players cards: {temp}")
