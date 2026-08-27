@@ -38,7 +38,7 @@ while True:
         print("You Lost!")
         break
     if guess == number:
-        print(f"You correctly guessed the number was{number}")
+        print(f"You correctly guessed the number was {number}.")
         break
     elif guess > number:
         print(f"Number is smaller. Tries left {tries}")
