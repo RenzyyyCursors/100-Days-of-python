@@ -1,0 +1,690 @@
+{
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.21,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "IF YOU IF YOU S. S. H. AND THEY HAVE THIS BIG WARNING ABOUT DOING NOTHING AT ALL IN THE GATEWAY MACHINE"
+    },
+    {
+      "start_time": 4.21,
+      "end_time": 5.84,
+      "speaker": "MEE068",
+      "language": "en",
+      "text": "I'VE GOTTEN MM HARDLY ANY"
+    },
+    {
+      "start_time": 5.84,
+      "end_time": 11.09,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "IT'S YEAH I MEAN THE WAVE DATA ARE OBVIOUSLY NOT GONNA GET OFF THERE COMPLETELY"
+    },
+    {
+      "start_time": 11.09,
+      "end_time": 17.46,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "YEAH IT'LL IT'LL PLAY THEM IN SOME ORDER IN WHICH THEY WERE SET BECAUSE OTHERWISE IT'S GONNA BE MORE ENTERTAINING"
+    },
+    {
+      "start_time": 17.46,
+      "end_time": 17.83,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "YEAH"
+    },
+    {
+      "start_time": 17.83,
+      "end_time": 18.2,
+      "speaker": "FEO065",
+      "language": "en",
+      "text": "HMM"
+    },
+    {
+      "start_time": 18.2,
+      "end_time": 19.66,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "ALL THESE FANCY PENS"
+    },
+    {
+      "start_time": 19.66,
+      "end_time": 29.56,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "LIKE SOMETHING THAT REPRESENTS THE WHOLE SERIES IN IN A V IN A STRUCTURE VERY SIMILAR TO THE STRUCTURE IN WHICH WE REPRESENT INDIVIDUAL UM MEETINGS"
+    },
+    {
+      "start_time": 29.56,
+      "end_time": 37.65,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "'CAUSE IF WE'RE GONNA ALLOW DISJOINT SEGMENTS FOR EXAMPLE THEN HOW ARE WE GONNA KNOW WHAT'S GONNA BE IN CONTEXT AT ANY GIVEN TIME"
+    },
+    {
+      "start_time": 37.65,
+      "end_time": 46.07,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "IS ANYONE OF YOU FOR THE FOR THE DOCUMENT FREQUENCY OVER TOTAL FREQUENCY YOU GONNA HAVE TOTAL FREQUENCIES OF WORDS THEN WITH THAT RIGHT"
+    },
+    {
+      "start_time": 46.07,
+      "end_time": 48.57,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "LIKE I DON'T KNOW COPIES OF SHAKESPEARE OR SOMETHING"
+    },
+    {
+      "start_time": 48.57,
+      "end_time": 53.29,
+      "speaker": "FEO065",
+      "language": "en",
+      "text": "I'M NOT QUITE SO WHAT IT DID YOU WANT TO DO IT I YOU JUST WANTED TO ASSIGN"
+    },
+    {
+      "start_time": 53.29,
+      "end_time": 56.79,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "AND THAT WILL OBVIOUSLY MAKE IT MUCH EASIER TO DISPLAY"
+    },
+    {
+      "start_time": 56.79,
+      "end_time": 61.16,
+      "speaker": "FEO066",
+      "language": "en",
+      "text": "UH I ORDERED ACCORDING TO THE UM STARTING TIMES OF THE UTTERANCES"
+    },
+    {
+      "start_time": 61.16,
+      "end_time": 65.01,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "'CAUSE IF WE ARE I RECKON WE SHOULD ALL READ OUR CLASSES OUT OF THE DATABASE"
+    },
+    {
+      "start_time": 65.01,
+      "end_time": 68.44,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "AND AND PROBABLY SEPARATE TO THAT AN INFORMATION ABOUT THE DIFFERENT TOPICS LIKE THAT"
+    },
+    {
+      "start_time": 68.44,
+      "end_time": 73.07,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "THAT MEANS SORT OF WE HAVE MULTIPLE LEVELS OF OF REPRESENTATION WHICH WE PROBABLY"
+    },
+    {
+      "start_time": 73.07,
+      "end_time": 73.93,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "HMM"
+    },
+    {
+      "start_time": 73.93,
+      "end_time": 75.16,
+      "speaker": "FEO066",
+      "language": "en",
+      "text": "YEAH"
+    },
+    {
+      "start_time": 75.16,
+      "end_time": 77.57,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "THEN WE SHOULD PROBABLY FIND SOME ABSTRACTION MODEL"
+    },
+    {
+      "start_time": 77.57,
+      "end_time": 79.59,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "ARE WE STILL GONNA DUMP IT INTO A DATABASE"
+    },
+    {
+      "start_time": 79.59,
+      "end_time": 80.18,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "SAY"
+    },
+    {
+      "start_time": 80.18,
+      "end_time": 85.49,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "LIKE WITH THE DATA STRUCTURES I'M JUST LIKE OVER THESE VAGUE IDEAS OF SOME TREES I'M F"
+    },
+    {
+      "start_time": 85.49,
+      "end_time": 85.87,
+      "speaker": "MEE068",
+      "language": "en",
+      "text": "YEAH YEAH"
+    },
+    {
+      "start_time": 85.87,
+      "end_time": 91.24,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "I THOUGHT THAT WAS THE WHOLE BEAUTY THAT LIKE YOU CAN JUST MAKE A NEW X. M. L. FILE AND SORT OF TIE THAT TO THE OTHER AND AND IT TRE"
+    },
+    {
+      "start_time": 91.24,
+      "end_time": 91.42,
+      "speaker": "MEE068",
+      "language": "en",
+      "text": "HMM"
+    },
+    {
+      "start_time": 91.42,
+      "end_time": 91.85,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "HMM"
+    },
+    {
+      "start_time": 91.85,
+      "end_time": 91.99,
+      "speaker": "MEE068",
+      "language": "en",
+      "text": "MM"
+    },
+    {
+      "start_time": 91.99,
+      "end_time": 94.69,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "THE THING IS I'M AWAY THIS WEEKEND"
+    },
+    {
+      "start_time": 94.69,
+      "end_time": 105.15,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "SO I'M JUST WONDERING IF THERE'S WAYS TO ABANDON THE WHOLE CONCEPT OF OF MEETINGS AND SORT OF BUT JUST NOT REALLY TREATING SEPARATE MEETINGS AS TOO MUCH OF A SEPARATE ENTITY"
+    },
+    {
+      "start_time": 105.15,
+      "end_time": 107.38,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "SO I'D JUST BE BUILDING THE DATA STRUCTURE AGAIN"
+    },
+    {
+      "start_time": 107.38,
+      "end_time": 109.27,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "YEAH YOU'D HAVE TO COUNT IT YOURSELF YEAH"
+    },
+    {
+      "start_time": 109.27,
+      "end_time": 113.9,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "THEN SKIP IT BECAUSE IT'S PROBABLY SOMETHING WITH A DOT IN BETWEEN WHICH IS USUALLY NOT SOMETHING YOU WANNA HAVE AND"
+    },
+    {
+      "start_time": 113.9,
+      "end_time": 114.68,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "THE TEMPS YEAH"
+    },
+    {
+      "start_time": 114.68,
+      "end_time": 115.96,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "ARE THEY SPOKEN NUMBERS"
+    },
+    {
+      "start_time": 115.96,
+      "end_time": 116.92,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "WELL THAT'S EASY"
+    },
+    {
+      "start_time": 116.92,
+      "end_time": 119.51,
+      "speaker": "FEO066",
+      "language": "en",
+      "text": "THAT'S WHAT I'M GUESSING THAT'S YOU KNOW"
+    },
+    {
+      "start_time": 119.51,
+      "end_time": 120.9,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "LET'S CHECK THAT OUT"
+    },
+    {
+      "start_time": 120.9,
+      "end_time": 125.78,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "AND THEN JUST SORT OF EVERYONE MAKE SURE EVERYONE UNDERSTAND THE INTERFACE"
+    },
+    {
+      "start_time": 125.78,
+      "end_time": 126.07,
+      "speaker": "FEO066",
+      "language": "en",
+      "text": "YEAH"
+    },
+    {
+      "start_time": 126.07,
+      "end_time": 127.34,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "IN MEMORY YEAH"
+    },
+    {
+      "start_time": 127.34,
+      "end_time": 127.54,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "YEAH"
+    },
+    {
+      "start_time": 127.54,
+      "end_time": 130.93,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "YEAH AND THAT'S ALSO FAIRLY EASY TO STORE ALONG WITH OUR SEGMENTS ISN'T IT"
+    },
+    {
+      "start_time": 130.93,
+      "end_time": 132.03,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "OKAY"
+    },
+    {
+      "start_time": 132.03,
+      "end_time": 133.46,
+      "speaker": "FEO066",
+      "language": "en",
+      "text": "YEAH ONE GROUP YEAH"
+    },
+    {
+      "start_time": 133.46,
+      "end_time": 136.14,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "WHEN DO WE HAVE TO MEET AGAIN THEN WITH THIS"
+    },
+    {
+      "start_time": 136.14,
+      "end_time": 138.77,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "YEAH I IT WOULD BE USEFUL FOR ME AS WELL"
+    },
+    {
+      "start_time": 138.77,
+      "end_time": 139.18,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "GOSH"
+    },
+    {
+      "start_time": 139.18,
+      "end_time": 146.62,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "SORT OF C I WAS JUST THINKING YOU KNOW LIKE IF IF THE OVERHEAD FOR HAVING THE SAME AMOUNT OF DATA COMING FROM TWO D FILES INSTEAD OF FROM ONE FILE IS MASSIVE"
+    },
+    {
+      "start_time": 146.62,
+      "end_time": 148.47,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "AM I THE ONLY ONE WHO NEEDS IT WITH FREQUENCIES"
+    },
+    {
+      "start_time": 148.47,
+      "end_time": 159.52,
+      "speaker": "FEO066",
+      "language": "en",
+      "text": "UM I JUST UM WONDERED SO WHO'S UH THEN DOING UM THE FREQUENCIES ON ON THE WORDS"
+    },
+    {
+      "start_time": 159.52,
+      "end_time": 159.86,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "YEAH"
+    },
+    {
+      "start_time": 159.86,
+      "end_time": 161.99,
+      "speaker": "MEE068",
+      "language": "en",
+      "text": "YEAH FOR ME IT'S BETTER IF THEY'RE BY MEETING"
+    },
+    {
+      "start_time": 161.99,
+      "end_time": 169.48,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "TH YEAH THE SEARCH IS I GUESS THE SEARCH IS SORT OF A STRANGE BEAST ANYWAY BECAUSE FOR THE SEARCH WE'RE LEAVING THE NITE X. M. L. FRAMEWORK"
+    },
+    {
+      "start_time": 169.48,
+      "end_time": 173.74,
+      "speaker": "FEO066",
+      "language": "en",
+      "text": "YEAH ONE SERIES HAS THE UM SAME THREE STARTING LETTERS"
+    },
+    {
+      "start_time": 173.74,
+      "end_time": 175.23,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "AND JUST BUILD ONE IN MEMORY"
+    },
+    {
+      "start_time": 175.23,
+      "end_time": 176.9,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "I HAVE NO IDEA"
+    },
+    {
+      "start_time": 176.9,
+      "end_time": 180.03,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "I HAVE THAT REALLY EXCITED PIRATE COPIED THING"
+    },
+    {
+      "start_time": 180.03,
+      "end_time": 184.8,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "SO BASICALLY APART FROM THE DISPLAY MODULE THE I THE DISPLAY ITSELF"
+    },
+    {
+      "start_time": 184.8,
+      "end_time": 185.17,
+      "speaker": "FEO065",
+      "language": "en",
+      "text": "YEAH"
+    },
+    {
+      "start_time": 185.17,
+      "end_time": 186.95,
+      "speaker": "FEO066",
+      "language": "en",
+      "text": "N UH NO NO IT'S F FOR"
+    },
+    {
+      "start_time": 186.95,
+      "end_time": 189.95,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "NO BUT I MEAN LIKE HOW HOW JASMINE DOES IT INTERNALLY I DON'T KNOW"
+    },
+    {
+      "start_time": 189.95,
+      "end_time": 192.85,
+      "speaker": "FEO066",
+      "language": "en",
+      "text": "I CAN TRY TO DO IT AND SEND IT TO YOU"
+    },
+    {
+      "start_time": 192.85,
+      "end_time": 193.02,
+      "speaker": "MEE068",
+      "language": "en",
+      "text": "RIGHT"
+    },
+    {
+      "start_time": 193.02,
+      "end_time": 194.49,
+      "speaker": "FEO065",
+      "language": "en",
+      "text": "DID YOU ALSO ORDER"
+    },
+    {
+      "start_time": 194.49,
+      "end_time": 198.12,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "SORT OF LIKE BUT THAT LIKE THE PROBLEM WITH THAT IS IT'S EASY TO DO IN THE TEXT LEVEL"
+    },
+    {
+      "start_time": 198.12,
+      "end_time": 199.56,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "LIKE IS IT JUST THE FIRST AND THE LAST LINE"
+    },
+    {
+      "start_time": 199.56,
+      "end_time": 205.34,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "SO THE INTERFACE IS MAINLY WHILE IT'S RUNNING JUST WORKING ON DATA THAT'S JUST LOADED FROM A FILE I GUESS"
+    },
+    {
+      "start_time": 205.34,
+      "end_time": 209.89,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "IT'S JUST LIKE BEF UNTIL THE INFORMATION DENSITY IS UP AND RUNNING"
+    },
+    {
+      "start_time": 209.89,
+      "end_time": 217.69,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "SO THEN YOU'D START WITH ALL YOUR UTTERANCES HERE AND WHEN YOU GO UP TO GET TOPIC SEGMENTS YOU GO TO HERE HERE HERE HERE HERE HERE HERE"
+    },
+    {
+      "start_time": 217.69,
+      "end_time": 226.2,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "BECAUSE IF WE'RE DOING LIKE I THINK FOR FOR THE INFORMATION DENSITY WE UH WE SHOULD CALCULATE IT ON THE LOWEST LEVEL NOT ON THE HIGHEST"
+    },
+    {
+      "start_time": 226.2,
+      "end_time": 227.02,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "SO"
+    },
+    {
+      "start_time": 227.02,
+      "end_time": 228.47,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "AND THEY HAVE A SCORE"
+    },
+    {
+      "start_time": 228.47,
+      "end_time": 229.57,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "MM-HMM"
+    },
+    {
+      "start_time": 229.57,
+      "end_time": 233.95,
+      "speaker": "FEO065",
+      "language": "en",
+      "text": "YES BUT WHAT ARE THE OTHER THINGS THAT'S UH SOME KIND OF NUMBER"
+    },
+    {
+      "start_time": 233.95,
+      "end_time": 244.23,
+      "speaker": "FEO066",
+      "language": "en",
+      "text": "AND THAT'S NOT SO MUCH WHAT HE MEANT WITH NOT POSSIBLY LOADING EVERYTHING WAS THAT YOU M UM LOAD ALL THE UH ANNOTATION STUFF"
+    },
+    {
+      "start_time": 244.23,
+      "end_time": 246.16,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "FOR EVERY SINGLE WORD"
+    },
+    {
+      "start_time": 246.16,
+      "end_time": 246.37,
+      "speaker": "MEE068",
+      "language": "en",
+      "text": "HMM"
+    },
+    {
+      "start_time": 246.37,
+      "end_time": 246.96,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "YEAH"
+    },
+    {
+      "start_time": 246.96,
+      "end_time": 247.49,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "BUT LIKE 'CAUSE"
+    },
+    {
+      "start_time": 247.49,
+      "end_time": 249.42,
+      "speaker": "FEO066",
+      "language": "en",
+      "text": "FOR EXAMPLE FOR THE DIALOGUE ACTS AND SO ON"
+    },
+    {
+      "start_time": 249.42,
+      "end_time": 249.6,
+      "speaker": "FEO066",
+      "language": "en",
+      "text": "HMM"
+    },
+    {
+      "start_time": 249.6,
+      "end_time": 256.88,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "OKAY SO MAYBE WE SHOULD BUILD A B STORE A MEAN MEASURE FOR THE SEGMENTS AND MEETINGS AS WELL"
+    },
+    {
+      "start_time": 256.88,
+      "end_time": 260.63,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "THEN MAYBE WE CAN MORE OR LESS USE THE SAME CODE AND JUST MAKE A FEW IFS AND STUFF"
+    },
+    {
+      "start_time": 260.63,
+      "end_time": 261.38,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "HOW DO YOU DO THAT"
+    },
+    {
+      "start_time": 261.38,
+      "end_time": 270.17,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "BUT I'M I'M STILL CONFUSED 'CAUSE I THOUGHT LIKE THAT'S JUST WHAT JONATHAN SAID WE DO C THAT WE CAN'T DO LIKE LOAD A MASSIVE DOCUMENT OF THAT SIZE"
+    },
+    {
+      "start_time": 270.17,
+      "end_time": 272.39,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "OH THEN I NEED SOMETHING DIFFERENT LATER ANYWAY"
+    },
+    {
+      "start_time": 272.39,
+      "end_time": 274.37,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "YEAH I I NEED FREQUENCY AS WELL"
+    },
+    {
+      "start_time": 274.37,
+      "end_time": 279.12,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "WE CAN PROBABLY JUST START WITH THE JAVA HASH MAP AND LIKE JUST HASH MAP OVER IT AND SEE HOW FAR WE GET"
+    },
+    {
+      "start_time": 279.12,
+      "end_time": 280.85,
+      "speaker": "FEO065",
+      "language": "en",
+      "text": "AND THEN YEAH"
+    },
+    {
+      "start_time": 280.85,
+      "end_time": 282.49,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "DO WE HAVE TO DEMONSTRATE SOMETHING NEXT WEEK"
+    },
+    {
+      "start_time": 282.49,
+      "end_time": 283.92,
+      "speaker": "FEO066",
+      "language": "en",
+      "text": "UH TH YEAH"
+    },
+    {
+      "start_time": 283.92,
+      "end_time": 285.1,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "YEAH"
+    },
+    {
+      "start_time": 285.1,
+      "end_time": 290.45,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "I CAN PROBABLY JUST IMPLEMENT LIKE A FIVE LINE JAVA HASH TABLE FREQUENCY DICTIONARY BUILDER AND SEE"
+    },
+    {
+      "start_time": 290.45,
+      "end_time": 290.95,
+      "speaker": "MEO069",
+      "language": "en",
+      "text": "OKAY"
+    },
+    {
+      "start_time": 290.95,
+      "end_time": 291.26,
+      "speaker": "FEO066",
+      "language": "en",
+      "text": "'KAY"
+    },
+    {
+      "start_time": 291.26,
+      "end_time": 299.45,
+      "speaker": "FEO066",
+      "language": "en",
+      "text": "SO UM I WOULD FOR EXAMPLE NEED THE UM MOST FREQ UM FREQUENT WORDS"
+    },
+    {
+      "start_time": 299.45,
+      "end_time": 300.35,
+      "speaker": "MEE067",
+      "language": "en",
+      "text": "LIKE AFTER THIS"
+    }
+  ]
+}

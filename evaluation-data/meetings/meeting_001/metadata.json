@@ -1,0 +1,17 @@
+{
+  "title": "Engineering Standup (Indian English)",
+  "date": "2026-09-26",
+  "duration_seconds": 300,
+  "languages": [
+    "en"
+  ],
+  "speakers": [
+    "FEO066",
+    "MEO069",
+    "MEE068",
+    "MEE067",
+    "FEO065"
+  ],
+  "consent": true,
+  "notes": "5-minute Indian English technical meeting with speaker overlaps."
+}
