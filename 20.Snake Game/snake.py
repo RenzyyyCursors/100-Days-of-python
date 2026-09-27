@@ -37,4 +37,25 @@ class Snake:
     def down(self):
         if self.segments[0].heading() != 90:
             self.segments[0].setheading(270)
-    
+
+    def add_segment(self):
+        new_segment = Turtle('square')
+        new_segment.color("white")
+        new_segment.penup()
+        lastPos = self.segments[-1].pos()
+        new_segment.goto(lastPos)
+        self.segments.append(new_segment)
+
+    def check_collision(self):
+        ret = True
+
+        if not(-300 < self.segments[0].xcor() < 300) or not(-300 < self.segments[0].ycor() < 300):
+            ret = False
+
+
+
+        for segnum in range(2,len(self.segments)):
+            if self.segments[0].distance(self.segments[segnum]) < 10:
+
+                ret = False
+        return ret
