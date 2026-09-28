@@ -52,8 +52,6 @@ class Snake:
         if not(-300 < self.segments[0].xcor() < 300) or not(-300 < self.segments[0].ycor() < 300):
             ret = False
 
-
-
         for segnum in range(2,len(self.segments)):
             if self.segments[0].distance(self.segments[segnum]) < 10:
 

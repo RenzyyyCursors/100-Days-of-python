@@ -33,19 +33,21 @@ while game_is_on:
     # Detect normal food collision
     if snake.segments[0].distance(food) < 20:
         scoreboard.score += 1
+        scoreboard.hits += 1
         food.refresh()
         snake.add_segment()
 
-        # Spawn Big food every 3 points if not active
-        if scoreboard.score % 3 == 0 and not bigfood.isActive:
+        # Spawn Big food every 5 points 
+        if scoreboard.hits % 5 == 0 and not bigfood.isActive:
             bigfood.spawn()
-            bigfood_timer = 50  # Available for 50 ticks (~5 seconds)
+            bigfood_timer = 50  # Available for 5 secs
 
     # Detect Big food collision
     if bigfood.isActive:
         bigfood_timer -= 1
         if snake.segments[0].distance(bigfood) < 25:
             scoreboard.score += 3
+            scoreboard.hits += 1
             bigfood.hide()
             for _ in range(2):
                 snake.add_segment()
@@ -54,6 +56,11 @@ while game_is_on:
 
     if snake.check_collision() == False:
         game_is_on = False
+        lost = Turtle()
+        lost.color("White")
+        lost.penup()
+        lost.hideturtle()
+        lost.write(f"You lost, Score: {scoreboard.score}",align='center',font=("arial",24,'normal'))
         print("You lost")
 
 
