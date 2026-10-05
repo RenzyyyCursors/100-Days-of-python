@@ -40,7 +40,7 @@ while game_is_on:
         # Spawn Big food every 5 points 
         if scoreboard.hits % 5 == 0 and not bigfood.isActive:
             bigfood.spawn()
-            bigfood_timer = 50  # Available for 5 secs
+            bigfood_timer = 50  # Available for 5 secs, ***tickwise
 
     # Detect Big food collision
     if bigfood.isActive:
@@ -56,12 +56,12 @@ while game_is_on:
 
     if snake.check_collision() == False:
         game_is_on = False
-        lost = Turtle()
-        lost.color("White")
-        lost.penup()
-        lost.hideturtle()
-        lost.write(f"You lost, Score: {scoreboard.score}",align='center',font=("arial",24,'normal'))
-        print("You lost")
+        scoreboard.highscore()
+        with open('data.txt','r') as f:
+            lines = f.readlines()
+            highscore_read = lines[0]
+        scoreboard.lost_display(scoreboard.score,highscore_read)
+        
 
 
 sc.exitonclick()
