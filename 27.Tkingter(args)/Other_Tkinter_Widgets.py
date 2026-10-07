@@ -82,5 +82,6 @@ for item in fruits:
     listbox.insert(fruits.index(item), item)
 listbox.bind("<<ListboxSelect>>", listbox_used)
 listbox.pack()
+
 window.mainloop()
 
