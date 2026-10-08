@@ -9,9 +9,12 @@ print(letter_dict)
 while True:
     user = input("Enter your name. (q) to quit: ")
 
-    if user == 'quit':
-        break
-    caps_user = user.upper()
-
-    nato_list = [letter_dict[i] for i in caps_user]
-    print(nato_list)
+    try:
+        if user == 'quit':
+            break
+        caps_user = user.upper()
+        nato_list = [letter_dict[i] for i in caps_user]
+        print(nato_list)
+        
+    except KeyError:
+        print("Aplabets allowed only.")
