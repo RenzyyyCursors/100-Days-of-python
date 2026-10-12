@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 import pyperclip
+import json
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 import random
 def generate_pass():
@@ -32,21 +33,51 @@ def save_creds():
     email = email_entry.get()
     password = password_entry.get()
 
+    new_data = {
+        website:{
+            "email" : email,
+            "password" : password
+        }
+    }
+
     if website == '' or email == '' or password =='':
         empty = messagebox.askretrycancel(title="warning",message="Fields cannot be empty")
 
-    if not empty:
-        is_ok = messagebox.askokcancel(title=website,message="Save the details")
+    else:
+        try:
+            with open('data.json','r') as file:
+                # json.dump(new_data,file,indent=4)
+                # read / update old data
+                data = json.load(file)
+        except (FileNotFoundError,json.JSONDecodeError):
+            with open('data.json','w') as file:
+                json.dump(new_data,file,indent=4)
+        else:
+            data.update(new_data)
 
-        if is_ok:
-            with open('password.txt','a') as file:
-                file.write(f"{website} | {email} | {password}\n")
+            with open('data.json','w') as file:
+                json.dump(data,file,indent=4)
 
-            password_entry.delete(0,END)
-            website_entry.delete(0,END)
-            email_entry.delete(0,END)
-            add_label.config(text='Added',padx=20)
-            window.after(1000,lambda: add_label.config(text=''))
+        password_entry.delete(0,END)
+        website_entry.delete(0,END)
+        email_entry.delete(0,END)
+        add_label.config(text='Added',padx=20)
+        window.after(1000,lambda: add_label.config(text=''))
+
+# ---------------------------- PASSWORD SEARCH ------------------------------- #
+def find_password():
+    searched = website_entry.get()
+    try:
+        with open('data.json','r') as file:
+            data = json.load(file)
+            get_email = data[searched]['email']
+            get_password = data[searched]['password']
+    except FileNotFoundError:
+        messagebox.showerror(title='Warning',message="Some error occurred.")
+    except KeyError:
+        messagebox.showerror(title='Warning',message="No such password or email found")
+    else:
+        messagebox.showinfo(title='Credentials',message=f"password: {get_password} \nemail: {get_email}")
 
 # ---------------------------- UI SETUP ------------------------------- #
 
@@ -72,15 +103,18 @@ add_label = Label(text="")
 add_label.grid(row=5,column=1)
 
 # Entries
-website_entry = Entry(width=35)
-website_entry.grid(row=1,column=1,columnspan=2)
+website_entry = Entry(width=21)
+website_entry.grid(row=1,column=1)
 website_entry.focus()
 
-email_entry = Entry(width=35)
-email_entry.grid(row=2,column=1,columnspan=2)
+email_entry = Entry(width=21)
+email_entry.grid(row=2,column=1)
 
 password_entry = Entry(width=21)
 password_entry.grid(row=3,column=1)
+
+search_button = Button(text="Search",padx=18,width=5,command=find_password)
+search_button.grid(row=1,column=2,)
 
 generate_button = Button(text='Generate',padx=18,width=5,command=generate_pass)
 generate_button.grid(row=3,column=2)

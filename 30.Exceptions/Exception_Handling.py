@@ -15,7 +15,7 @@ else:
 finally:
     raise TypeError("This is an error that I made up.")
 
-#BMI Example
+#BMI Examplez(self-made exceptions)
 
 height = float(input("Height: "))
 weight = int(input("Weight: "))
