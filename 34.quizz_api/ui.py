@@ -50,7 +50,8 @@ class QuizInterface:
             self.false_button.destroy()
             self.score_label.destroy()
             self.canvas.itemconfig(self.question_text,text= f"You quiz score is \n{self.quiz.score}/10")
-            end_button = Button(100,100,text="End Quizlet Window",command= self.end_app)
+
+            end_button = Button(text="End Quizlet Window",command= self.end_app, highlightthickness=0)
             end_button.grid(row=2,column=0)
             
 
