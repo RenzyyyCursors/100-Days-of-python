@@ -39,9 +39,18 @@ class QuizInterface:
     def end_app(self):
         self.window.destroy()
 
+    def default_background(self):
+        self.canvas.config(bg= "white")
+
     def verify_answer(self,answer):
-        self.quiz.check_answer(answer)
+        accurate = self.quiz.check_answer(answer)
         self.score_label.config(text= f"{self.quiz.score}/10")
+
+        if accurate:
+            self.canvas.config(bg= "green")
+        else:
+            self.canvas.config(bg= "red")
+        self.window.after(ms=250,func=self.default_background)
 
         if self.quiz.still_has_questions():
             self.get_next_question()
